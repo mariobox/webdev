@@ -1,0 +1,68 @@
+
+body {
+	font-family: Oxygen;
+}
+
+.jumbotron {
+    background-image: url("../img/LibraryDark.jpg");
+    margin-top: 40px;
+    
+}
+
+.jumbotron h1, .jumbotron p {
+	color: #FFF;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
+
+.makeItBold {
+	font-weight: bold;
+}
+
+img.book {
+	display: block;
+	margin: 10px auto;
+}
+
+a.book {
+	display: block;
+	margin: 10px auto;
+	
+}
+
+nav {
+	color: #FFF;
+}
+
+.price {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	color: green;
+	padding: 10px 0;
+}
+
+.thumbnail {
+	padding: 40px;
+	height: 750px;
+}
+
+#booksFirstRow {
+	margin-top: 90px;
+}
+
+
+@media (min-width: 375px) {
+.thumbnail {
+	height: 650px;
+}
+
+
+}
+
+
+
+
+
