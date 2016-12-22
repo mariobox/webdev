@@ -46,7 +46,6 @@ nav {
 
 .thumbnail {
 	padding: 40px;
-	height: 750px;
 }
 
 #booksFirstRow {
@@ -54,13 +53,6 @@ nav {
 }
 
 
-@media (min-width: 375px) {
-.thumbnail {
-	height: 650px;
-}
-
-
-}
 
 
 
