@@ -3,13 +3,13 @@ function validateText() {
     document.querySelector('input[name="USERNAME"]').style["borderBottom"] = "3px solid #1de71d";
   }
  else {
-   document.querySelector('input[type="USERNAME"]').style["borderBottom"] = "3px solid #F00";
+   document.querySelector('input[name="USERNAME"]').style["borderBottom"] = "3px solid #F00";
  };
 }
 
 function validatePassword() {
   if(document.querySelector('input[name="PASSWORD"]').value.trim() !== ""){
-    document.querySelector('input[NAME="PASSWORD"]').style["borderBottom"] = "3px solid #1de71d";
+    document.querySelector('input[name="PASSWORD"]').style["borderBottom"] = "3px solid #1de71d";
   }
  else {
    document.querySelector('input[name="PASSWORD"]').style["borderBottom"] = "3px solid #F00";
