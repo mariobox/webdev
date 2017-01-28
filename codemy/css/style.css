@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+body {
+    background-color: #F5F4F4;
+    font-family: Oxygen, sans-serif;
+    color: #3e3e40;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+.logo {
+width: 150px;
+display: inline-block;
+margin-top: 10px;  
+
+}
+
+
+nav {
+    background-color: #FFF;
+    overflow: auto;
+    
+}
+
+.wrapper {                     /* This is a class so that the content doesn't take 100% of the screen width */
+    max-width: 1000px; 
+    margin: 0 auto;
+   
+}
+
+.button-left, .button-right {
+    vertical-align: middle;
+    margin-right: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    float: right;
+    padding:0.5em;
+    width: 100px;
+
+}
+
+.login {
+background-color: #008B8B;
+color: white;
+border: 1px solid #008B8B;
+}
+
+.signup {
+  background-color: #FFF;
+color: #008B8B;
+border: 1px solid #008B8B;  
+}
+
+#calltoaction {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+#huge {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 4em;
+    font-weight: normal;
+}
+
+#contactform {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 100px;
+    }
+
+
+.lefthalf, .righthalf {
+        width: 45%;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin: 0;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+.goahead {
+background-color: #008B8B;
+color: white;
+border: 1px solid #008B8B;
+width: 250px;
+padding: 0.5em;
+}
+
+#signupPrompt {
+    color: #999;
+    font-size: 1.1em;
+}
+
+#video {
+    background-color: #FFF;
+    padding: 100px;
+}
+
+.videotext {
+    text-align: right;
+    width: 300px;
+    
+}
+
+.profile {
+    width: 75px;
+    border-radius: 50%;
+}
+
+section#testimonials {
+    background-color: #F4F3F3;
+    text-align: center;   
+    padding-top: 100px;
+}
+
+section#testimonials .testblock {
+    width: 25%;
+    margin: 0 15px;
+    display: inline-block;
+    background-color: #FFF;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    vertical-align: top;
+    text-align: center;
+    padding: 60px 20px;
+    height: 400px;
+}
+
+section#testimonials .testblock:hover {
+    background-color: #008B8B;
+}
+
+section#testimonials .blurb {
+font-size: 1.5rem;
+}
+
+form input {
+    width: 250px;
+    padding: 0.5em;
+}
+
+footer {
+    background-color: #999;
+    padding: 1em 0;
+    font-size: small;
+    /* position: absolute;     /* so that the footer sticks to the bottom of the screen 
+    bottom: 0;              /* so that the footer sticks to the bottom of the screen */
+    width: 100%;            /* if you don't put it the footer is only going to take the space of the wrapper */
+}
+
+#footerright {
+    float: right;
+}
+
+a, a:visited, a:active {
+    text-decoration: none;
+    color: #3e3e40;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    height: 1px;
+    background-color: #d4d5d6;
+    border: none;
+    margin: 3em 0;
+}
+
+section#top {
+background: #F4F3F3;
+text-align: center;
+padding-bottom: 30px;
+} 
+
+
+
+section#bottom {
+background-color: #D5D4D3;
+padding: 1em 0;
+
+}
+
+section#bottom ul {
+list-style: none;
+margin-left: -2.3em;
+}
+
+.col-md-2:last-child ul:last-of-type {
+margin-top: 2.3em;
+}
+
+section#copyright {
+    border-top: 1px solid #FFF;
+    background-color: #D5D4D3;
+    padding: 1em 0;
+    font-size: 1em;
+}
