@@ -39,7 +39,7 @@
       <div class="righthalf">
         <form>
           <p id="signupPrompt">SIGN UP AND START CODING IN <br />SECONDS.</p><br />
-          <input type="text" name="EMAIL" placeholder="Email"> <input type="text" name="PASSWORD" placeholder="Password"> <input type="text" name="USERNAME" placeholder="Username"> <br /><br />
+          <input type="email" name="EMAIL" placeholder="Email" onkeypress="validateEmail()"> <input type="text" name="PASSWORD" placeholder="Password" onkeypress="validateText()"> <input type="text" name="USERNAME" placeholder="Username" onkeypress="validateText()"> <br /><br />
           <button class="goahead">SIGN UP</button>
         </form>
 
@@ -218,6 +218,8 @@
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+  <script src="scripts/validate.js"></script>
 
   </main>
 
