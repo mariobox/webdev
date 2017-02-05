@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Idea Center Holiday, Inc. Website">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Minimal Contact Form With Validation</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous"> -->
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet"> -->
+    <link href="form.css" rel="stylesheet">
+
+    
+  </head>
+
+  <body>
+
+    <form>
+
+    <input type="text" name="firstname" placeholder="First Name" required autofocus><br>
+    <p id="warningName"></p>
+    <input type="text" id="emailField" name="email" placeholder="you@youremail.com" required><br>
+    <p id="warningEmail"></p>
+    <textarea name="comment" placeholder="Hi Mario..." ></textarea><br>
+    <p id="warningComment"></p>
+    <input type="submit" value="Submit">
+
+  </form>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+    <script src="form.js"></script>
+  </body>
+</html>
