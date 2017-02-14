@@ -42,7 +42,7 @@ $(document).ready(function () {
 
     // Verify if email has at at symbol and a dot to the right of the at symbol
 
-    var x = $(this).val().trim();
+    var x = $('#emailField').val().trim();
     var atpos = x.indexOf("@");
     var dotpos = x.lastIndexOf(".");
     if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= x.length) {
@@ -117,5 +117,4 @@ setTimeout(function() {
 }, 15000);
 
 });
-
 
