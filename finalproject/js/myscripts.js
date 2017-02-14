@@ -11,7 +11,7 @@ $(document).ready(function () {
 
   // VALIDATE NAME:
 
-  $('[name="firstname"]').on('keyup', function (event) {
+  $('[name="firstname"]:focus').on('keyup', function (event) {
 
     if ($(this).val().trim()) {
 
@@ -38,7 +38,7 @@ $(document).ready(function () {
 
   // VALIDATE EMAIL:
 
-  $('#emailField').on('keyup', function (event) {
+  $('#emailField:focus').on('keyup', function (event) {
 
     // Verify if email has at at symbol and a dot to the right of the at symbol
 
@@ -74,7 +74,7 @@ $(document).ready(function () {
 
   // VALIDATE COMMENTS:
 
-  $('[name="comment"]').on('keyup', function (event) {
+  $('[name="comment"]:focus').on('keyup', function (event) {
 
     if ($(this).val().trim()) {
 
