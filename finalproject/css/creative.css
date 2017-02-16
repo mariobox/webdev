@@ -441,24 +441,10 @@ opacity: 0;
   width: 80%;
 }
 
-.accessories {
-  text-align: center;
-  background-color: #d9d7d5;
-  font-family: Helvetica;
-  font-size: 0.9em;
-  font-weight: bold;
-  margin: 2em 0px;
-  padding-top: 0.25em;
-  height: 1.5em;
-}
-
 .col-md-4 img:nth-of-type(2) {
   display: none;
 }
 
-.accessories:hover + img {
-  display: block;  
-} 
 
 #product-1, #product-2, #product-3 {
   padding: 35px 0;

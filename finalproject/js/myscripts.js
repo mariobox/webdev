@@ -100,6 +100,28 @@ $(document).ready(function () {
   }); // close on keyup
 }); // close doc ready
 
+$(document).ready(function() {
+
+$('#whypic').html('<img src="img/drop.png" />');
+
+$('.why li:first-child').on('mouseenter mouseleave', function(){
+  $('#whypic').html('<img src="img/drop.png" />');
+});
+
+$('.why li:nth-child(2)').on('mouseenter mouseleave', function(){
+  $('#whypic').html('<img src="img/manometer.png" width="150px" />');
+});
+
+$('.why li:nth-child(3)').on('mouseenter mouseleave', function(){
+  $('#whypic').html('<img src="img/deck.jpg" width="200px" />');
+});
+
+$('.why li:nth-child(4)').on('mouseenter mouseleave', function(){
+  $('#whypic').html('<img src="img/induction.png" width="200px" />');
+});
+
+});
+
 
 // Bootstrap Tabs
 
