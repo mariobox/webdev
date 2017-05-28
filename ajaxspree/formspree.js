@@ -11,7 +11,7 @@ $contactForm.submit(function(e) {
 		data: $(this).serialize(),
 		dataType: 'json',
 		beforeSend: function() {
-			$contactForm.append('<h4>Sending message…</h4>');
+			$('#message').html('<h4>Sending message…</h4>');
 		},
 		success: function(data) {
 			$contactForm.hide();
@@ -19,7 +19,7 @@ $contactForm.submit(function(e) {
 		},
 		error: function(err) {
 			$contactForm.hide();
-			$('#message').html('<h4>Ops, there was an error.</h4>');
+			$('#message').html('<h4>Ops, there was an error.<a href="index.html">Try again</a></h4>');
 			
 		}
 	});
