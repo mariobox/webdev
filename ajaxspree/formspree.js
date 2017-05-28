@@ -11,15 +11,15 @@ $contactForm.submit(function(e) {
 		data: $(this).serialize(),
 		dataType: 'json',
 		beforeSend: function() {
-			$contactForm.append('<div class="alert alert--loading">Sending message…</div>');
+			$contactForm.append('<h4>Sending message…</h4>');
 		},
 		success: function(data) {
-			$contactForm.find('.alert--loading').hide();
-			$contactForm.append('<div class="alert alert--success">Message sent!</div>');
+			$contactForm.hide();
+			$('#message').html('<h4>Your form has been sent successfully!</h4>');
 		},
 		error: function(err) {
-			$contactForm.find('.alert--loading').hide();
-			$contactForm.append('<div class="alert alert--error">Ops, there was an error.</div>');
+			$contactForm.hide();
+			$('#message').html('<h4>Ops, there was an error.</h4>');
 			
 		}
 	});
