@@ -11,6 +11,7 @@ $contactForm.submit(function(e) {
 		data: $(this).serialize(),
 		dataType: 'json',
 		beforeSend: function() {
+			$contactForm.hide();
 			$('#message').html('<h4>Sending message…</h4>');
 		},
 		success: function(data) {
