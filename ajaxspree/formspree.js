@@ -2,9 +2,7 @@ var $contactForm = $('#contact-form');
 
 $contactForm.submit(function(e) {
 	e.preventDefault();
-	var $submit = $('input:submit', $contactForm);
-	var defaultSubmitText = $submit.val();
-
+	
 	$.ajax({
 		url: '//formspree.io/mariosc@gmail.com',
 		method: 'POST',
@@ -14,11 +12,11 @@ $contactForm.submit(function(e) {
 			$contactForm.hide();
 			$('#message').html('<h4>Sending message…</h4>');
 		},
-		success: function(data) {
+		success: function() {
 			$contactForm.hide();
 			$('#message').html('<h4>Your form has been sent successfully!</h4>');
 		},
-		error: function(err) {
+		error: function() {
 			$contactForm.hide();
 			$('#message').html('<h4>Ops, there was an error.<a href="index.html">Try again</a></h4>');
 			
